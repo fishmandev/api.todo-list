@@ -5,4 +5,4 @@ from rest_framework import serializers
 class TaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = Task
-        fields = ['name', 'status', 'due_date']
+        fields = ['id', 'name', 'status', 'due_date']
